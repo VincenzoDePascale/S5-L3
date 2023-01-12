@@ -1,0 +1,42 @@
+body {
+  background-color: honeydew;
+  margin: 0px;
+}
+
+/*header e nav*/
+
+header {
+  margin-bottom: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 150px;
+  margin: 1em;
+  background-color: #ecc26e;
+  border-radius: 100px;
+  padding: 1em 3em;
+}
+
+.navButton {
+  border-radius: 100px;
+  background-color: #d99d25;
+  border: none;
+  padding: 1%;
+  height: 50%;
+  font-size: 1.25em;
+}
+
+.centreButton {
+  display: flex;
+  align-items: center;
+  height: 75%;
+  font-size: 1.5em;
+}
+
+nav img {
+  max-height: 75px;
+}
